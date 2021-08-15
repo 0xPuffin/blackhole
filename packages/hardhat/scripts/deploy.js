@@ -11,7 +11,9 @@ const main = async () => {
   console.log("\n\n 📡 Deploying...\n");
  
 
-  const Blackhole = await deploy("Blackhole") // <-- dia in constructor args like line 19 vvvv
+  const Blackhole = await deploy("Blackhole");
+  const Greenhole = await deploy("Greenhole");
+  const UBI = await deploy("UBI");
   
 
 const accounts = await ethers.getSigners()

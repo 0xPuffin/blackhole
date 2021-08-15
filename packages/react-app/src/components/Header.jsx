@@ -1,15 +1,19 @@
-import React from "react";
 import { PageHeader } from "antd";
+import React from "react";
+
+// displays a page header
 
 export default function Header() {
   return (
-    <a href="#" target="_blank" rel="noopener noreferrer">
-       <PageHeader
-        title=" "
-        avatar={{src:"https://i.imgur.com/gMvjiVw.png"}}
-        subTitle="Blackhole.Bet"
-        style={{ cursor: "pointer", fontSize: "2em" }}
-      /> 
+    <a href="https://blackhole.bet" target="_blank" rel="noopener noreferrer">
+      <PageHeader
+        avatar={{
+          src:"/logo512.png"
+        }}
+        title="Blackhole"
+        subTitle="bet your heart out"
+        style={{ cursor: "pointer" }}
+      />
     </a>
   );
 }

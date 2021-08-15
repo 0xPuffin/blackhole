@@ -1,1 +1,1 @@
-module.exports = ["Blackhole"];
+module.exports = ["Blackhole","Greenhole","UBI"];
